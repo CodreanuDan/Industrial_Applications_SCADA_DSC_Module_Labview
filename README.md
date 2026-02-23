@@ -17,9 +17,9 @@ Interactive simulation of an atmospheric crude oil distillation refinery built i
 ### Screenshots
 
 #### Main HMI
-![Main HMI - Refinery Overview](DOCS/Main_HMI.png)
+![Main HMI - Refinery Overview](Oil_Refinery/DOCS/Main_HMI.png)
 
 #### PID & Temperature Stabilization
 | PID Stabilization (Output vs Temperature) | Temperature Stabilization (Setpoint Tracking) |
 |-------------------------------------------|-----------------------------------------------|
-| ![PID Stabilization](DOCS/Test_PID_1_PID.png) | ![Temperature Stabilization](DOCS/Test_PID_1_temp.png) |
+| ![PID Stabilization](Oil_Refinery/DOCS/Test_PID_1_PID.png) | ![Temperature Stabilization](Oil_Refinery/DOCS/Test_PID_1_temp.png) |
