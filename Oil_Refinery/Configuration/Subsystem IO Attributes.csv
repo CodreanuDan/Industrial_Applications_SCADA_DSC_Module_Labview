@@ -1,0 +1,10 @@
+Name,Type,AccessType,Alarming,Alarming:Hi:Enabled,Alarming:Hi:Name,Alarming:Hi:level,Alarming:Lo:Enabled,Alarming:Lo:Name,Alarming:Lo:level,Alarming:Boolean:Enabled,Alarming:Boolean:Name,Alarming:Boolean:Value,Alarming:BadStatus:Enabled,Alarming:BadStatus:Name,Logging,Logging:LogData,Logging:LogAlarmEvents
+p,Double,read/write,on,FALSE,HI,1,FALSE,LO,0,,,,TRUE,BadStatus,on,TRUE,TRUE
+i,Double,read/write,on,FALSE,HI,1,FALSE,LO,0,,,,TRUE,BadStatus,on,TRUE,TRUE
+d,Double,read/write,on,FALSE,HI,1,FALSE,LO,0,,,,TRUE,BadStatus,on,TRUE,TRUE
+SP,Double,read/write,on,TRUE,HI,100,TRUE,LO,10,,,,TRUE,BadStatus,on,TRUE,TRUE
+PV,Double,read only,on,TRUE,HI,90,TRUE,LO,10,,,,TRUE,BadStatus,on,TRUE,TRUE
+dt,Double,read/write,on,FALSE,HI,1000,FALSE,LO,200,,,,TRUE,BadStatus,on,TRUE,TRUE
+output,Double,read only,on,TRUE,HI,90,TRUE,LO,10,,,,TRUE,BadStatus,on,TRUE,TRUE
+InUse,Bool,read/write,on,,,,,,,TRUE,Boolean,OFF,TRUE,BadStatus,on,TRUE,TRUE
+Description,String,read/write,on,,,,,,,,,,TRUE,BadStatus,on,TRUE,TRUE
